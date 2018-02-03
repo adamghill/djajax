@@ -10,4 +10,4 @@ A model mixin that gives an easy way to serialize a model or queryset to JSON.
 Outputs an empty obj if nothing there and calls safe on the JSON string text.
 
 ### djajax_urls tag
-Outputs a dictionary of reverse lookups to urls for use in Javascript. Url must not need arguments, and DJAJAX_URL_REVERSE_LOOKUPS or DJAJAX_URL_FUNCTIONS need to be set in settings for security reasons.
+Outputs a dictionary of reverse lookups to urls for use in Javascript. Url must not need arguments, and DJAJAX_URL_REVERSE_LOOKUPS needs to be set in settings for security reasons.
