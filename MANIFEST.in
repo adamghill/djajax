@@ -1,1 +1,3 @@
-recursive-include README.md LICENSE *.js
+include README.md
+include LICENSE
+recursive-include djajax *.js
