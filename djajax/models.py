@@ -57,7 +57,7 @@ class SerializableMixin(models.Model):
             queryset = queryset_or_model
             model = queryset.model
 
-            if limit > 1:
+            if limit and limit > 1:
                 paginator = Paginator(queryset, limit)
 
                 try:
