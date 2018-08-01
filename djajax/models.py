@@ -115,5 +115,4 @@ class SerializableMixin(models.Model):
         return serialized_value
 
     class Meta:
-        app_label = 'djajax'
         abstract = True
